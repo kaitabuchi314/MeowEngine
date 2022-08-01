@@ -18,5 +18,5 @@ class MeowEngine:
             self.enabled = isEnabled
         
     def drawRect(x,y,w,h,outline,fill):
-        if self.isEnabled:
-            self.canvas.create_rectangle(x, y, w, h,outline, fill)
+        if isEnabled:
+            canvas.create_rectangle(x, y, w, h,outline, fill)
