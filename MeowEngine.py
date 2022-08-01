@@ -12,6 +12,5 @@ class MeowEngine:
         self.path.mainloop()
 
     
-    def drawRect(x,y,w,h,outline,fill):
-        
-        self.canvas.create_rectangle(x, y, x+w, y+h,outline, fill).pack()
+    def drawRect(self, x,y,w,h,outline,fill):
+        self.canvas.create_rectangle(x, y, x+w, y+h,outline=outline, fill=fill)
